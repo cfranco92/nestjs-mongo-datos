@@ -1,4 +1,5 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
+
 import { AppService } from './app.service';
 
 @Controller()
@@ -18,5 +19,10 @@ export class AppController {
   @Get('/ruta/')
   hello() {
     return 'con /sas/';
+  }
+
+  @Get('/tasks/')
+  getTasks() {
+    return this.appService.getTasks();
   }
 }
