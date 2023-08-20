@@ -87,3 +87,6 @@ $ git remote -v
 ```terminal
 $ docker-compose up -d mongo
 ```
+```
+  $ docker-compose down
+```
