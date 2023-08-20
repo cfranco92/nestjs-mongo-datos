@@ -81,3 +81,9 @@ $ git remote -v
 ```terminal
   $ git remote rm origin
 ```
+
+## Docker for Mongo
+
+```terminal
+$ docker-compose up -d mongo
+```
