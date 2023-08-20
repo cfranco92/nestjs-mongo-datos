@@ -87,6 +87,19 @@ $ git remote -v
 ```terminal
 $ docker-compose up -d mongo
 ```
+
 ```
   $ docker-compose down
+```
+
+## Install Mongo for Node JS
+
+```
+  $ npm i mongodb
+```
+
+## Install types for Mongo on Node JS
+
+```
+  $ npm i @types/mongodb -D
 ```
